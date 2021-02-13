@@ -127,7 +127,7 @@ const changeSlide = (index) => {
 searchBtn.addEventListener('click', function () {
   //Error handling for Empty search-bar
   if(document.getElementById("search").value==""){
-    alert("Type Something")
+    alert("Error! Type something meaningful ")
   }
   
   else{
